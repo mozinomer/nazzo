@@ -328,3 +328,95 @@ img {
     padding-left: 14px;
     line-height: 22px;
 }
+.products {
+    text-align: center;
+    padding: 65px 0px;
+}
+
+.products h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.icontentProducts h3 a {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+}
+
+.icontentProducts p {
+    font-weight: 500;
+}
+
+.icontentProducts span {}
+
+.addtoCart {
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    transition: 0.6s all;
+    border-radius: 5px;
+    margin: 23px 0px 0px 0px;
+}
+
+.addtoCart:hover {background: #000;color: #fff;transition: 0.6s all;}
+
+.imageContainerProducts {
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.icontentProducts {
+    padding: 0px 20px;
+}
+
+.imageContainerProducts:hover {
+    background: #BC3032;
+}
+
+.blog {
+    background: #F3F3F3;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.blog h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.contentSecder {
+    margin: 20px 0px 0px;
+    padding: 0px 20px;
+}
+
+.contentSecder p {
+    font-size: 13px;
+}
+
+.contentSecder h6 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+
+.imageContainerBlog {
+    padding: 0px 10px;
+}
+
+body {
+    color: #000;
+}
