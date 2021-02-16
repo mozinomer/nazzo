@@ -57,6 +57,10 @@ $(window).scroll( function(e) {
 	}
 })
 
+$('.hamburger').click( function(e) {
+	$('.menuContainer').toggleClass('active');
+	$(this).toggleClass('active');
+})
 
 
 
