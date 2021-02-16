@@ -442,3 +442,93 @@ header {
     max-width: 1580px;
     margin: auto;
 }
+footer {
+    color: #fff;
+    padding: 100px 0px 0px;
+}
+
+.newsLetter {
+    text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #cccccc57;
+    margin-bottom: 80px;
+}
+
+.newsLetter h2 {
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.newsLetter p {
+    font-size: 15px;
+    margin: 20px 0px 40px;
+}
+
+.inputContainer {
+    /* display: flex; */
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+
+.inputContainer button {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    right: 7px;
+    background: #000;
+    border: 2px solid #000;
+    color: #fff;
+    padding: 6px 27px;
+    border-radius: 40px;
+    font-size: 14px;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: max-content;
+}
+
+.inputContainer input {
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+.inputContainer button:hover {
+    background: none;
+    color: #000;
+    transition: 0.6s all;
+}
+
+.containerlistItemsFooter h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 22px;
+}
+
+.containerlistItemsFooter a {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    line-height: normal;
+    margin-top: 17px;
+    opacity: 0.7;
+}
+
+.copyRights {
+    border-top: 1px solid #cccccc57;
+    margin-top: 80px;
+    padding: 20px 0px;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.containerlistItemsFooter a:hover {
+    opacity: 1;
+}

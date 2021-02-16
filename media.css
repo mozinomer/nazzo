@@ -1,7 +1,7 @@
 @media only screen and (max-width: 767px) {
 	.bannerContainer {
 		min-height: auto;
-		padding: 100px 0px;
+		padding: 100px 0px 50px;
 	}
 
 	.contentContainerBanner h2 {
@@ -278,5 +278,42 @@
 	}
 	header.active .hamburger span {
 		background: #000;
+	}
+	footer {
+		padding: 50px 0px 0px;
+	}
+
+	.newsLetter h2 {
+		font-size: 22px;
+	}
+
+	.newsLetter p {
+		font-size: 14px;
+	}
+
+	.inputContainer input {
+		font-size: 13px;
+	}
+
+	.newsLetter {
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+
+	.copyRights {
+		margin: 10px 0px 0px;
+	}
+
+	.containerlistItemsFooter a {
+		font-size: 13px;
+	}
+
+	.containerlistItemsFooter h5 {
+		font-size: 15px;
+	}
+
+	.footerMain .col {
+		flex: 0 50%;
+		margin-bottom: 20px;
 	}
 }
