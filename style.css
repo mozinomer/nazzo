@@ -96,9 +96,6 @@ header .container {
     padding: 7px 40px;
     border-radius: 3px;
 }
-header {
-	display: none;
-}
 .visionPanda {
     padding: 100px 0px 0px;
     text-align: center;

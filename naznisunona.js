@@ -4,6 +4,15 @@ $('.sliderContainerBlackPanther').slick({
 	arrows: false,
 	dots: true,
 	centerMode: false,
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
 })
 $('.sliderproducts').slick({
 	slidesToShow: 3,
@@ -11,6 +20,15 @@ $('.sliderproducts').slick({
 	arrows: false,
 	dots: false,
 	centerMode: false,
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
 })
 $('.rowsliderContainerBlog').slick({
 	slidesToShow: 4,
@@ -18,4 +36,14 @@ $('.rowsliderContainerBlog').slick({
 	arrows: false,
 	dots: false,
 	centerMode: false,
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
+
 })

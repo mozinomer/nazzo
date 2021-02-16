@@ -1,0 +1,119 @@
+@media only screen and (max-width: 767px) {
+	.bannerContainer {
+		min-height: auto;
+		padding: 100px 0px;
+	}
+
+	.contentContainerBanner h2 {
+		font-size: 22px;
+	}
+
+	.contentContainerBanner p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.contentContainerBanner a {
+		font-size: 13px;
+	}
+
+	.visionPanda {
+		padding: 40px 0px;
+	}
+
+	.visionPanda h2 {
+		font-size: 22px;
+	}
+
+	.visionPanda p {
+		font-size: 13px;
+		line-height: 22px;
+		margin: 20px 0px 40px;
+	}
+
+	.contentBlackPanther h2 {
+		font-size: 22px;
+		margin: 20px 0px 20px;
+	}
+
+	.blackPanther {
+		padding-top: 130px;
+	}
+
+	.containerInnerSlider .row {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	.imgaeContainer {
+		flex: 0 100%;
+		max-height: 200px;
+		overflow: hidden;
+	}
+
+	.imgaeContainer img {
+		height: 100%;
+		object-fit: cover;
+		width: 100%;
+	}
+
+	.contentColumn {
+		flex: 0 100%;
+	}
+
+	.contentColumn h2 {
+		font-size: 22px;
+		margin: 20px 0px 0px;
+	}
+
+	.contentColumn p {
+		font-size: 13px;
+		line-height: normal;
+		max-width: 100%;
+		padding: 0px;
+		margin: 11px 0px;
+	}
+
+	.contentColumn a {
+		font-size: 13px;
+		line-height: normal;
+		margin: 20px auto 20px;
+	}
+
+	.products h2 {
+		font-size: 22px;
+	}
+
+	.products {
+		padding: 30px 0px;
+	}
+
+	.blog h2 {
+		font-size: 22px;
+	}
+	.boxContainer {
+		margin-bottom: 20px;
+	}
+
+	.contentContainerbox {
+		bottom: 24px;
+	}
+
+	.contentContainerbox h5 {
+		font-size: 19px;
+	}
+	.icontentProducts h3 a {
+		font-size: 18px;
+	}
+
+	.icontentProducts p {
+		font-size: 13px;
+	}
+
+	.addtoCart {
+		font-size: 13px;
+		max-width: max-content;
+		margin: 20px auto 0px;
+		padding: 10px 20px;
+	}
+}
