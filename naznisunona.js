@@ -46,4 +46,22 @@ $('.rowsliderContainerBlog').slick({
 	}
 	]
 
+});
+
+$(window).scroll( function(e) {
+	var scroll = $(window).scrollTop();   
+	if (scroll > 100) {
+		$('header').addClass('active');
+	} else {
+		$('header').removeClass('active');
+	}
 })
+
+
+
+
+
+
+
+
+
