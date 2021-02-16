@@ -96,3 +96,235 @@ header .container {
     padding: 7px 40px;
     border-radius: 3px;
 }
+header {
+	display: none;
+}
+.visionPanda {
+    padding: 100px 0px 0px;
+    text-align: center;
+}
+
+.visionPanda h2 {
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.visionPanda p {
+    margin: 40px auto;
+    max-width: 880px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.visionPanda img {
+    margin: auto;
+}
+.rows {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.coulmns {
+    flex: 0 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #F5F5F5;
+}
+
+.imgaeContainer {
+    flex: 0 50%;
+}
+
+.contentColumn {flex: 0 50%;padding: 0px 50px;text-align: center;}
+
+.contentColumn h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contentColumn p {
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 31px;
+}
+
+.contentColumn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 37px;
+    margin: 30px auto 0px;
+    border-radius: 5px;
+    transition: 0.6s all;
+}
+
+.contentColumn a:hover {
+    color: #fff;
+    background: #000;
+}
+
+.coulmns:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.coulmns:nth-child(even) .contentColumn a {
+    background: #000;
+    color: #fff;
+}
+
+.coulmns:nth-child(even) .contentColumn a:hover {
+    background: none;
+    color: #000;
+}
+
+.boxContainer {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.6s all;
+}
+
+.contentContainerbox {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.6s all;
+}
+
+.contentContainerbox span {
+    display: none;
+    transition: 0.6s all;
+}
+
+.contentContainerbox h5 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    transition: 0.6s all;
+}
+
+.boxContainer:hover .contentContainerbox {
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: max-content;
+    transition: 0.6s all;
+}
+
+.boxContainer:hover .contentContainerbox span {
+    display: flex;
+    max-width: max-content;
+    align-items: center;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.6s all;
+}
+
+.boxContainer:hover .contentContainerbox span img {
+    margin-left: 10px;
+    display: inline-block;
+    transition: 0.6s all;
+}
+
+.boxContainer:hover {
+    transition: 0.6s all;
+}
+.blackPanther {
+    margin-top: -150px;
+    padding-top: 200px;
+    color: #fff;
+}
+
+.blackPanther li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.blackPanther li img {
+    max-width: 25%;
+}
+
+.blackPanther li span {
+    display: block;
+    flex: 0 75%;
+}
+
+.column3layout {
+    padding: 50px 0px 70px;
+}
+.blackPanther .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px;
+}
+
+.blackPanther .slick-dots li {
+    font-size: 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0px 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.blackPanther .slick-dots button {
+    display: none;
+}
+
+.blackPanther .slick-dots .slick-active {
+    background: #fff;
+}
+
+.blackPanther {
+    padding-bottom: 60px;
+}
+
+.contentBlackPanther h2 {
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.containerInnerSlider .col-md-4:first-child ul li {
+    flex-direction: row-reverse;
+}
+
+.containerInnerSlider .col-md-4:first-child ul li span {
+    text-align: right;
+    font-size: 15px;
+    padding-left: 73px;
+    padding-right: 20px;
+    line-height: 22px;
+}
+
+.containerInnerSlider .col-md-4:last-child ul li span {
+    padding: 0px 57px;
+    font-size: 14px;
+    padding-left: 14px;
+    line-height: 22px;
+}
