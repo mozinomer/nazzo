@@ -1171,3 +1171,114 @@ span.notOnSale {
    font-weight: 600;
    color: #000;   
 }
+.boxContainerSliderSuupliments {
+    background: #F3F3F3;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.boxContainerSliderSuupliments h6 {
+    color: #6CB34D;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.boxContainerSliderSuupliments p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.boxContainerSliderSuupliments p:last-child {
+    margin-bottom: 0px;
+}
+
+.suppliments + .blackPanther {
+    margin-top: 0px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.suppliments .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    margin: 40px auto;
+}
+
+.suppliments .slick-dots li {
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border: 2px solid #6CB34D;
+    margin: 0px 10px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.suppliments .slick-dots button {
+    display: none;
+}
+
+.suppliments .slick-dots li.slick-active {
+    background: #6CB34D;
+}
+.shopPage .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    margin: 40px auto;
+}
+
+.shopPage .slick-dots li {
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border: 2px solid #6CB34D;
+    margin: 0px 10px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.shopPage .slick-dots button {
+    display: none;
+}
+
+.shopPage .slick-dots li.slick-active {
+    background: #6CB34D;
+}
+.iconsContainer .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    margin: 0px auto 0px;
+}
+
+.iconsContainer .slick-dots li {
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    border: 2px solid #6CB34D;
+    margin: 0px 10px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.iconsContainer .slick-dots button {
+    display: none;
+}
+
+.iconsContainer .slick-dots li.slick-active {
+    background: #6CB34D;
+}
+.productPageContainer .shopPage h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.productPageContainer .shopPage {
+    padding-top: 0px;
+}

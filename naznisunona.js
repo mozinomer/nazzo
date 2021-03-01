@@ -88,21 +88,58 @@ $('.slidersupplimentsContainer').slick({
 	arrows: false
 })
 
- $('.sliderLeft').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: false,
-  vertical: true,
-  asNavFor: '.sliderright',
-  focusOnSelect: true,
+$('.sliderLeft').slick({
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	arrows: false,
+	fade: false,
+	vertical: true,
+	asNavFor: '.sliderright',
+	focusOnSelect: true,
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 4,
+			vertical: false,
+			slidesToScroll: 1
+		}
+	}
+	]
 });
 $('.sliderright').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  asNavFor: '.sliderLeft',
-  dots: false,
-  arrows: false,
-  centerMode: false,
-  
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	asNavFor: '.sliderLeft',
+	dots: false,
+	arrows: false,
+	centerMode: false,
+	responsive: [
+	{
+		breakpoint: 767,
+		settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		}
+	}
+	]
+
 });
+
+// responsive 
+if ($(window).width() < 768) {
+	$('.productPageContainer .shopPage .row').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+		arrows: false,
+		dots: true
+	})
+	$('.iconsContainer .row').slick({
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		infinite: false,
+		arrows: false,
+		dots: true
+	})
+}
