@@ -551,25 +551,25 @@ footer {
     opacity: 0;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
-  }
-  20% {
+}
+20% {
     transform: translateY(0);
     opacity: 1;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-  }
-  80% {
+}
+80% {
     transform: translateY(0);
     opacity: 1;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-  }
-  100% {
+}
+100% {
     transform: translateY(0);
     opacity: 1;
     -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
     clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-  }
+}
 }
 .bannerPages {
     min-height: 500px;
@@ -854,4 +854,91 @@ footer {
     margin-left: auto;
     display: block;
     width: 70%;
+}
+.shopPage {
+    padding: 50px;
+    text-align: center;
+}
+
+.shopPage h2 {
+    font-weight: 600;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.imageContainerShopProduct {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fixedShopProduct {
+    position: absolute;
+    bottom: 0;
+    height: auto;
+    overflow: hidden;
+    top: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: #fff;
+    transition: 0.7s all;
+    /* height: 0; */
+    /* overflow: hidden; */
+}
+
+.fixedShopProduct h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.fixedShopProduct p {
+    font-size: 15px;
+    line-height: 31px;
+    margin-bottom: 20px;
+}
+
+.fixedShopProduct span {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.imageContainerShopProduct:hover .fixedShopProduct {
+    top: 0;
+}
+.containnerInnerFixedShop {
+    color: #fff !important;
+}
+
+
+
+.quantitys span {
+    cursor:pointer; 
+}
+.quantitys .number{
+    margin:100px;
+}
+.quantitys .minus, .quantitys .plus{
+    width:20px;
+    height:20px;
+    background:#f2f2f2;
+    border-radius:4px;
+    padding:8px 5px 8px 5px;
+    border:1px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.quantitys input{
+    height:34px;
+    width: 100px;
+    text-align: center;
+    font-size: 26px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    display: inline-block;
+    vertical-align: middle;
 }
