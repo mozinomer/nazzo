@@ -81,3 +81,9 @@ $('.plus').click(function () {
 	$input.change();
 	return false;
 });
+$('.slidersupplimentsContainer').slick({
+	slidesToScroll: 1,
+	slidesToShow: 1,
+	dots: true,
+	arrows: false
+})
