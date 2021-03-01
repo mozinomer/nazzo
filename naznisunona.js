@@ -60,6 +60,12 @@ $(window).scroll( function(e) {
 $('.hamburger').click( function(e) {
 	$('.menuContainer').toggleClass('active');
 	$(this).toggleClass('active');
+});
+$('.sliderCOntainerTestimonials').slick({
+	slidesToShow: 1,
+	dots: false,
+	arrows: true,
+	slidesToScroll: 1,
 })
 
 
