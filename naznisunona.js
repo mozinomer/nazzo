@@ -87,3 +87,22 @@ $('.slidersupplimentsContainer').slick({
 	dots: true,
 	arrows: false
 })
+
+ $('.sliderLeft').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: false,
+  vertical: true,
+  asNavFor: '.sliderright',
+  focusOnSelect: true,
+});
+$('.sliderright').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  asNavFor: '.sliderLeft',
+  dots: false,
+  arrows: false,
+  centerMode: false,
+  
+});
