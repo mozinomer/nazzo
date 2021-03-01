@@ -601,3 +601,84 @@ footer .logoCOntainer {
 .numberCOntainer a img {
     margin-right: 20px;
 }
+.pageBanner {
+    min-height: 430px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.contentPageBanner {
+    max-width: 900px;
+}
+
+.contentPageBanner h2 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contentPageBanner p {font-weight: 300;}
+
+.section2AboutPage {
+    padding: 50px 0px;
+}
+
+.headingContaienerBlodl h2 {
+    text-align: center;
+    color: #00000038;
+    font-weight: 600;
+    font-size: 43px;
+    margin-bottom: 50px;
+}
+
+.rowsContainerAbout img {
+    max-height: 578px;
+}
+
+.rowsContainerAbout {
+    max-width: 1300px;
+}
+
+.rowsContainerAbout .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: max-content;
+    margin: auto;
+    justify-content: center;
+}
+
+.column1 {
+    flex: 0 60%;
+}
+
+.column2 {
+    flex: 0 40%;
+    background: #fff;
+    padding: 50px;
+    margin-left: -160px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.column2 p {
+    color: rgb(0 0 0 / 50%);
+    margin: 20px 0px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.column2 h3 {
+    font-size: 32px;
+}
+
+.rowsContainerAbout .row:nth-child(even) {
+    flex-direction: row-reverse;
+    margin: 50px 0px;
+}
+
+.rowsContainerAbout .row:nth-child(even) .column2 {
+    margin-right: -100px;
+    margin-left: auto;
+}
