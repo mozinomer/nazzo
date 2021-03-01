@@ -682,3 +682,114 @@ footer .logoCOntainer {
     margin-right: -100px;
     margin-left: auto;
 }
+.whyUss {
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0px;
+}
+.circle {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/12.png);
+}
+
+.innerCicular {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainGola {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    border: 8px solid #ebebeb54;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.mainGola h3 {
+    max-width: 228px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.whyUss {
+    padding: 50px 0px;
+    min-height: 940px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle span {
+    display: block;
+    background: #fff;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.innerCicular .circle:first-child {
+    left: 60px;
+    top: -100px;
+}
+.circle:after {
+    content: "";
+    display: block;
+    width: 54px;
+    height: 10px;
+    background: #c4882a;
+    position: absolute;
+    bottom: 20px;
+    transform: rotate(55deg);
+    right: -19px;
+    top: 140px;
+}
+
+.circle:before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #c4882a;
+    position: absolute;
+    bottom: -32px;
+    right: -20px;
+    border-radius: 50%;
+}
+.circle:nth-child(2) {
+    top: -190px;
+    left: 290px;
+}
+
+.circle:nth-child(2):after {
+    transform: rotate(105deg);
+    left: -15px;
+    right: 0;
+    margin: auto;
+    bottom: -50px;
+    width: 60px;
+}
+
+.circle:nth-child(2):before {
+    left: -24px;
+    right: 0;
+    margin: auto;
+    bottom: -61px;
+    top: auto;
+}
