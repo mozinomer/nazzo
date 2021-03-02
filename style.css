@@ -816,7 +816,13 @@ footer {
     line-height: 32px;
 }
 
-.authorInfoTestimonials {display: flex;align-items: center;text-align: left;max-width: max-content;margin: 40px auto 0px;}
+.authorInfoTestimonials {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: max-content;
+    margin: 40px auto 0px;
+}
 
 .imageCOntaienrtestmonialAuthor {
     width: 80px;
