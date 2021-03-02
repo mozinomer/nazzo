@@ -1282,3 +1282,36 @@ span.notOnSale {
 .productPageContainer .shopPage {
     padding-top: 0px;
 }
+.whatweSaypage {
+    padding: 100px 0px;
+}
+
+.whatSaybox {
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+.whatSaybox img {
+    position: absolute;
+    right: 40px;
+    top: -30px;
+}
+
+.whatSaybox p {
+    line-height: 26px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.whatSaybox p:last-child {
+    margin: 0px;
+    opacity: 1;
+}
+
+.whatSaybox strong {
+    font-weight: 500;
+}

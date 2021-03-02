@@ -849,4 +849,21 @@
 	div#brandStory2 .row {
 		flex-direction: column-reverse;
 	}
+	.whatSaybox p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.whatSaybox img {
+		width: 40px;
+		top: -20px;
+	}
+
+	.whatweSaypage {
+		padding: 50px 0px;
+	}
+
+	.whatSaybox {
+		margin-bottom: 50px;
+	}
 }
