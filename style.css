@@ -13,6 +13,7 @@ body {
 }
 header ul {
     display: flex;
+    margin: 0px;
 }
 
 ul {
@@ -109,8 +110,11 @@ header .container {
 }
 
 .visionPanda p {
-    margin: 40px auto;
+    margin: 20px auto 50px;
     max-width: 880px;
+    font-size: 14px;
+    max-width: 60%;
+    line-height: 30px;
 }
 
 img {
@@ -142,7 +146,7 @@ img {
 .contentColumn {flex: 0 50%;padding: 0px 50px;text-align: center;}
 
 .contentColumn h2 {
-    font-size: 38px;
+    font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -151,6 +155,7 @@ img {
     max-width: 500px;
     margin: 20px auto;
     line-height: 31px;
+    font-size: 14px;
 }
 
 .contentColumn a {
@@ -166,6 +171,7 @@ img {
     margin: 30px auto 0px;
     border-radius: 5px;
     transition: 0.6s all;
+    font-size: 14px;
 }
 
 .contentColumn a:hover {
@@ -345,19 +351,20 @@ img {
 .products h2 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 32px;
     margin-bottom: 50px;
 }
 
 .icontentProducts h3 a {
     display: block;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     color: #000;
 }
 
 .icontentProducts p {
     font-weight: 500;
+    font-size: 14px;
 }
 
 .icontentProducts span {}
@@ -372,7 +379,9 @@ img {
     padding: 7px;
     transition: 0.6s all;
     border-radius: 5px;
-    margin: 23px 0px 0px 0px;
+    margin: 23px auto 0px;
+    font-size: 14px;
+    max-width: 80%;
 }
 
 .addtoCart:hover {background: #000;color: #fff;transition: 0.6s all;}
@@ -400,7 +409,7 @@ img {
 }
 
 .blog h2 {
-    font-size: 34px;
+    font-size: 32px;
     text-transform: uppercase;
     font-weight: 700;
     color: #000;
@@ -417,7 +426,7 @@ img {
 }
 
 .contentSecder h6 {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 600;
     color: #000;
 }
@@ -467,7 +476,7 @@ footer {
 }
 
 .newsLetter h2 {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -475,6 +484,7 @@ footer {
 .newsLetter p {
     font-size: 15px;
     margin: 20px 0px 40px;
+    font-size: 13px;
 }
 
 .inputContainer {
@@ -494,7 +504,7 @@ footer {
     color: #fff;
     padding: 6px 27px;
     border-radius: 40px;
-    font-size: 14px;
+    font-size: 13px;
     bottom: 0;
     top: 0;
     margin: auto;
@@ -526,7 +536,7 @@ footer {
 .containerlistItemsFooter a {
     display: block;
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     line-height: normal;
     margin-top: 17px;
     opacity: 0.7;
@@ -812,8 +822,10 @@ footer {
     transform: rotate(180deg);
 }
 .contentSlidertestimonials p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 32px;
+    max-width: 90%;
+    margin: auto;
 }
 
 .authorInfoTestimonials {
@@ -841,12 +853,15 @@ footer {
 .authorInforData h6 {
     font-size: 18px;
     font-weight: 400;
+    margin-bottom: 0px;
 }
 
 .authorInforData p {
     font-weight: 400;
     color: #A5A5A5;
     font-size: 15px;
+    max-width: 100%;
+    font-size: 13px;
 }
 .videoContainer {
     max-width: 1920px;
@@ -1627,4 +1642,20 @@ h4.panel-title {
 
 .tabCOntainerFaq .container:first-child h2 {
     margin-top: 0px;
+}
+.contentInnerLis {
+    max-width: 75%;
+}
+
+.contentInnerLis h6 {
+    max-width: 70%;
+    text-align: right;
+    Qri: q;
+    margin-left: auto;
+}
+
+.blackPanther li .contentInnerLis span {
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 300;
 }
