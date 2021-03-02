@@ -1315,3 +1315,180 @@ span.notOnSale {
 .whatSaybox strong {
     font-weight: 500;
 }
+.imageContainerBlogpost {
+    max-height: 438px;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.blogPostContainer {
+    position: relative;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.blogPostPageWrapper {
+    padding: 100px 0px;
+}
+
+.contentBlogPost {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    color: #fff;
+    z-index: 9;
+}
+
+.imageContainerBlogpost::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #00000063;
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.contentBlogPost h3 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 11px;
+    margin-bottom: 20px;
+}
+
+.contentBlogPost p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.contentBlogPost h3:after {
+    content: "";
+    display: block;
+    width: 20%;
+    background: #fff;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+}
+
+.blogPostContainer:hover img {
+    transform: scale(1.5);
+    transition: 4s all;
+}
+
+.imageContainerBlogpost img {
+    transition: 4s all;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contactUsPage {
+    padding: 100px 0px;
+}
+
+.contentContactUs h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.contentContactUs p {
+    max-width: 400px;
+    margin-bottom: 30px;
+    line-height: 26px;
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.contentContactUs span {
+    display: block;
+}
+
+.contentContactUs a {
+    color: #000 !important;
+    opacity: 0.9;
+}
+
+.contentContactUs strong {
+    font-weight: 600;
+}
+
+.formContainerCotactus h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.rowContaienrInputfield input {
+    display: block;
+    width: 100%;
+    /* border: 1px solid #D2D3D5; */
+    min-height: 55px;
+    border: none;
+    padding: 0px 20px;
+    font-size: 14px;
+}
+
+.rowContaienrInputfield label {
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    background: #ffff;
+    z-index: 9;
+    left: 20px;
+    top: -13px;
+    padding: 3px 12px;
+}
+
+.rowContaienrInputfield {
+    position: relative;
+    border: 1px solid #D2D3D5;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    padding-top: 7px;
+}
+
+.rowContaienrInputfield input::placeholder, .rowContaienrInputfield textarea::placeholder {
+    color: #D1D1D1;
+}
+
+.rowContaienrInputfield textarea {
+    width: 100%;
+    min-height: 200px;
+    border: none;
+    padding: 20px;
+    font-size: 14px;
+    padding-top: 30px;
+}
+
+.formContainerCotactus button {
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    transition: 0.6s all;
+}
+
+.formContainerCotactus button:hover {
+    background: none;
+    color: #000;
+}
+.mapContainer {
+    margin: 50px 0px 0px;
+}
