@@ -265,9 +265,8 @@ img {
     opacity: 0;
 }
 .containerInnerSlider.slick-active .row li {
-
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
     transform: translateY(-50px);
     opacity: 0;
     animation-name: titleAnimation;
@@ -275,9 +274,37 @@ img {
     animation-duration: 3s;
     animation-delay: 0.6s;
     -webkit-animation-fill-mode: forwards;
+    margin-bottom: 20px;
+}
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
+}
+20% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+}
+80% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+}
+100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+}
 }
 .blackPanther li img {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 .blackPanther li span {
@@ -327,13 +354,17 @@ img {
 
 .containerInnerSlider .col-md-4:first-child ul li {
     flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .containerInnerSlider .col-md-4:first-child ul li span {
     text-align: right;
     font-size: 15px;
-    padding-left: 73px;
-    padding-right: 20px;
+    /* padding-left: 73px; */
+    /* padding-right: 20px; */
+    line-height: 22px;
+    /* padding-right: 0px; */
+    font-size: 13px;
     line-height: 22px;
 }
 
@@ -555,32 +586,6 @@ footer {
     opacity: 1;
 }
 
-@keyframes titleAnimation {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
-}
-20% {
-    transform: translateY(0);
-    opacity: 1;
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-}
-80% {
-    transform: translateY(0);
-    opacity: 1;
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-}
-100% {
-    transform: translateY(0);
-    opacity: 1;
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
-}
-}
 .bannerPages {
     min-height: 500px;
     display: flex;
@@ -749,7 +754,7 @@ footer {
 }
 
 .sliderTestimonials h2 {
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -852,7 +857,7 @@ footer {
 
 .authorInforData h6 {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 0px;
 }
 
@@ -1188,9 +1193,9 @@ span.notOnSale {
     margin: 0px 10px;
 }
 .socialSharing label {
-   display: block;
-   font-weight: 600;
-   color: #000;   
+ display: block;
+ font-weight: 600;
+ color: #000;   
 }
 .boxContainerSliderSuupliments {
     background: #F3F3F3;
@@ -1644,17 +1649,38 @@ h4.panel-title {
     margin-top: 0px;
 }
 .contentInnerLis {
-    max-width: 75%;
+    max-width: 60%;
+    text-align: right;
 }
 
 .contentInnerLis h6 {
-    max-width: 70%;
+    max-width: 100%;
     text-align: right;
     margin-left: auto;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 .blackPanther li .contentInnerLis span {
     font-size: 12px;
-    opacity: 0.7;
+    opacity: 0.8;
     font-weight: 300;
+}
+.sliderContainerBlackPanther .row {
+    align-items: center;
+}
+.containerInnerSlider .col-md-4:last-child ul li span {
+    text-align: left;
+}
+
+.containerInnerSlider .col-md-4:last-child ul li h6 {
+    text-align: left;
+    margin-left: 0px;
+    padding: 0px 14px;
+    max-width: 100%;
+}
+.products + .shopPage h2 {
+    font-weight: 700;
+    font-size: 32px;
 }
