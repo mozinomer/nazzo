@@ -254,6 +254,9 @@
 		font-size: 13px;
 		line-height: 22px;
 		margin: 20px 0px 40px;
+		margin: 10px auto;
+		max-width: 100%;
+		margin-bottom: 30px;
 	}
 
 	.contentBlackPanther h2 {
@@ -366,6 +369,8 @@
 		padding: 0px;
 		display: block;
 		text-align: center;
+		font-size: 11px;
+		line-height: 20px;
 	}
 
 	.containerInnerSlider .col-md-4:first-child ul li {
@@ -865,5 +870,32 @@
 
 	.whatSaybox {
 		margin-bottom: 50px;
+	}
+	.containerInnerSlider img {
+		max-width: 50%;
+		margin: auto;
+	}
+
+	.contentInnerLis {
+		width: 100%;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.contentInnerLis h6 {
+		text-align: center;
+		font-size: 14px;
+	}
+
+	.blackPanther .slick-dots {
+		margin: 20px 0px 0px;
+	}
+
+	.contentSlidertestimonials {
+		padding: 0px;
+	}
+
+	.column3layout {
+		padding-bottom: 0px;
 	}
 }

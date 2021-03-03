@@ -141,5 +141,12 @@ if ($(window).width() < 768) {
 		infinite: false,
 		arrows: false,
 		dots: true
-	})
+	});
+	$('.products + .shopPage .row').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+		arrows: false,
+		dots: true
+	});
 }
