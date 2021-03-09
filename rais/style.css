@@ -1,0 +1,84 @@
+body, ul, ol, .row {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    color: #000;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.topBar {
+    text-align: center;
+    background: #FFF3C7;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
+    background: #F7F5F5;
+}
+
+.innerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logoContainer {
+    order: 2;
+}
+
+.hamburger {
+    order: 1;
+}
+
+.cartContaienrHeader {
+    order: 3;
+}
+
+.innerHeader img {}
+
+.logoContainer img {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.hamburger {
+    width: 32px;
+    height: 20px;
+    /* background: red; */
+    position: relative;
+    display: block;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 1px;
+    background: #000;
+    display: block;
+    position: absolute;
+}
+
+.hamburger span:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.hamburger span:nth-child(3) {
+    bottom: 0;
+}
