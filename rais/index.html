@@ -95,15 +95,22 @@
             <div class="sliderContainerTestimonials">
                 <img src="./images/7.png">
                 <div class="sliderContainer">
-                    <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
-                        <span>@Kenzee B.</span>
-                    </p>
-                    <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
-                        <span>@Kenzee B.</span>
-                    </p>
-                    <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
-                        <span>@Kenzee B.</span>
-                    </p>
+
+                    <div class="slideriNNers">
+                        <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
+                            <span>@Kenzee B.</span>
+                        </p>
+                    </div>
+                    <div class="slideriNNers">
+                        <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
+                            <span>@Kenzee B.</span>
+                        </p>
+                    </div>
+                    <div class="slideriNNers">
+                        <p>I absolutely love my Silicone bottles! The size is perfect and the lanyard is a bonus for my purse.I would have spent WAY more money at my local store buying the bottle, the lanyards, it would have been alot purchasing them separate.Thanks again for the convenience.
+                            <span>@Kenzee B.</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,7 +161,7 @@
             </div>
         </div>
     </div>
-    <div class="becomeAMember">
+    <div class="becomeAMember" style="background-image: url('./images/10.png');">
         <div class="container">
             <div class="joing">
                 <h2>Become A Member</h2>
@@ -170,16 +177,45 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="ImagesContainerPost">
-                            <img src="./images/11.png">
-                            <img src="./images/11.png">
-                            <img src="./images/11.png">
-                            <img src="./images/11.png">
-                            <img src="./images/11.png">
-                            <img src="./images/11.png">
+                            <div class="innerSimahe">
+                                <img src="./images/11.png">
+                            </div>
+                            <div class="innerSimahe">
+                                <img src="./images/11.png">
+                            </div>
+                            <div class="innerSimahe">
+                                <img src="./images/11.png">
+                            </div>
+                            <div class="innerSimahe">
+                                <img src="./images/11.png">
+                            </div>
+                            <div class="innerSimahe">
+                                <img src="./images/11.png">
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="sliderRightPostContainer">
+                            <div class="sliderPostInner">
+                                <h6>Blog posts</h6>
+                                <h2>Cleane Solution</h2>
+                                <p>We continue to perfect the craft of keeping the products unused, and in a secured warehouse.So once your place your order it will get out to you in no time.Keep them excellent condition while they travel from our warehouse to your home.</p>
+                            </div>  
+                            <div class="sliderPostInner">
+                                <h6>Blog posts</h6>
+                                <h2>Cleane Solution</h2>
+                                <p>We continue to perfect the craft of keeping the products unused, and in a secured warehouse.So once your place your order it will get out to you in no time.Keep them excellent condition while they travel from our warehouse to your home.</p>
+                            </div>  
+                            <div class="sliderPostInner">
+                                <h6>Blog posts</h6>
+                                <h2>Cleane Solution</h2>
+                                <p>We continue to perfect the craft of keeping the products unused, and in a secured warehouse.So once your place your order it will get out to you in no time.Keep them excellent condition while they travel from our warehouse to your home.</p>
+                            </div>  
+                            <div class="sliderPostInner">
+                                <h6>Blog posts</h6>
+                                <h2>Cleane Solution</h2>
+                                <p>We continue to perfect the craft of keeping the products unused, and in a secured warehouse.So once your place your order it will get out to you in no time.Keep them excellent condition while they travel from our warehouse to your home.</p>
+                            </div>  
                             <div class="sliderPostInner">
                                 <h6>Blog posts</h6>
                                 <h2>Cleane Solution</h2>
@@ -194,7 +230,35 @@
 </div>
 
 </body>
+<script type="text/javascript">
+    $('.sliderContainer').slick({
+        slidesToShow: 1,
+        dots: true,
+        arrows: false,
+        infinite: false,
+        centerMode: false,
+    });
+    $('.ImagesContainerPost').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        infinite: false,
+        centerMode: false,
+          fade: true,
+          asNavFor: '.sliderRightPostContainer'
+    });
+    $('.sliderRightPostContainer').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          asNavFor: '.ImagesContainerPost',
+          dots: true,
+        infinite: false,
+        centerMode: false,
+          focusOnSelect: false
+    });
+</script>
 </html>
+
 
 
 
