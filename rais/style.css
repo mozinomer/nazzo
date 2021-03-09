@@ -82,3 +82,161 @@ img {
 .hamburger span:nth-child(3) {
     bottom: 0;
 }
+.bannerContainer {min-height: 500px;display: flex;align-items: center;background-size: cover;color: #fff;}
+
+.bannerContainer a {
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    max-width: max-content;
+    margin: 20px 0px;
+    border: 2px solid #000;
+    transition: 0.7s all;
+}
+
+.bannerContainer a:hover {
+    background: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bannerContainer h2 {
+    max-width: 512px;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.bannerAfer p {
+    max-width: 621px;
+    margin: auto;
+    margin: 50px auto;
+    text-align: center;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.boxContainerSection2 {
+    min-height: 320px;
+    margin-bottom: 20px;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+div#boxCOntainerSection3 {
+    height: 100%;
+}
+
+.boxContainerSection2 h2 {
+    font-size: 32px;
+    max-width: 130px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.boxContainerSection2 a {
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    max-width: max-content;
+    padding: 10px 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    transition: 0.7s all;
+}
+
+.boxContainerSection2 a:hover {
+    background: none;
+    color: #000;
+}
+
+div#boxCOntainerSection3 .boxInnerContainer {
+    opacity: 0;
+    transition: 0.7s all;
+}
+
+div#boxCOntainerSection3:hover .boxInnerContainer {
+    opacity: 1;
+}
+
+.sliderContainerTestimonials {
+    background: #FBFBFB;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sliderContainer img {}
+
+.sliderContainerTestimonials img {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.sliderContainerTestimonials p {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.ourPoroducts .row {
+    background: #F9F9F9;
+    padding: 20px;
+    align-items: center;
+}
+
+.flexed {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.productContainer {
+    flex: 0 48%;
+}
+
+.flexed a {
+    color: #000;
+    font-size: 14px;
+}
+
+.productContainer h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ourPoroducts p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    /* margin: 0px; */
+}
+
+.ourPoroducts a {
+    text-decoration: underline;
+    color: #000;
+    display: block;
+    margin: 30px 0px 0px;
+}
+
+.productContainer a {
+    text-decoration: none;
+    margin: 0px;
+}
+
+.productContainer p {
+    margin: 0;
+}
