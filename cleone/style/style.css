@@ -552,11 +552,11 @@ button.slick-next.slick-arrow {
 }
 
 .slick-prev:before {
-    content: 'ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Ãƒâ€šÃ‚Â Previous';
+    content: 'Previous';
 }
 
 .slick-next:before {
-    content: 'Next ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢';
+    content: 'Next';
     display: flex;
 }
 
