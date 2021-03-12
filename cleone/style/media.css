@@ -1,0 +1,347 @@
+
+/*  
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Media Query
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+@media only screen and (max-width: 1600px) {
+    .bannerContainer h2 {
+        font-size: 40px;
+    }
+
+    .boxContainerSection2 h2 {
+        font-size: 30px;
+    }
+
+    .sliderContainerTestimonials p {
+        font-size: 16px;
+    }
+
+    .ourPoroducts h2 {
+        font-size: 32px;
+    }
+
+    .ourPoroducts p {
+        font-size: 15px;
+    }
+
+    .ourPoroducts a,
+    .ourPoroducts a.bottom-after {
+        font-size: 15px;
+    }
+
+    .notJustProducts h2 {
+        font-size: 30px;
+    }
+
+    .notJustProducts p {
+        font-size: 15px;
+    }
+
+    .notJustProducts a {
+        font-size: 14px;
+    }
+
+    .joing h2 {
+        font-size: 32px;
+    }
+
+    .joing a {
+        font-size: 15px;
+    }
+
+    .sliderPostInner p {
+        font-size: 15px;
+    }
+
+    .upper-footer h6 {
+        font-size: 22px;
+    }
+
+    .right-input input::placeholder {
+        font-size: 14px;
+    }
+    .page-directry.page-directry1 {
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+    .term-condition p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .page-directry ul li a, .term-condition a
+    {
+        font-size: 14px;
+    }
+    .page-directry h2 {
+        font-size: 34px;
+    }
+    .term-condition h4 {
+        font-size: 22px;
+        margin: 30px 0 20px;
+    }
+    .term-condition {
+        max-width: 900px;
+    }
+    .page-directry ul {
+        max-width: 18%;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .hamburger span {
+        max-width: 75%;
+    }
+
+    .bannerContainer h2 {
+        font-size: 36px;
+    }
+
+    .bannerAfer p {
+        font-size: 15px;
+    }
+
+    .boxContainerSection2 h2 {
+        font-size: 28px;
+    }
+
+    .boxContainerSection2 a {
+        padding: 10px 25px;
+        font-size: 14px;
+    }
+
+    .sliderContainerTestimonials p {
+        font-size: 15px;
+    }
+
+    .ourPoroducts h2 {
+        font-size: 30px;
+    }
+
+    .productContainer h5 {
+        font-size: 15px;
+    }
+
+    .notJustProducts h2 {
+        font-size: 28px;
+    }
+
+    .notJustProducts a {
+        padding: 10px 25px;
+    }
+
+    .joing h2 {
+        font-size: 28px;
+    }
+
+    .joing p {
+        font-size: 15px;
+    }
+
+    .sliderPostInner h2 {
+        font-size: 24px;
+    }
+
+    .sliderPostInner p {
+        font-size: 14px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        font-size: 18px;
+    }
+
+    .upper-footer h6 {
+        font-size: 20px;
+    }
+
+    .first h6 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+
+    .second h6 {
+        font-size: 15px;
+    }
+    .page-directry.page-directry1 {
+        max-width: 960px;
+    }
+    .term-condition {
+        max-width: 800px
+    }
+
+}
+
+@media only screen and (max-width: 1280px) {
+    .bannerContainer h2 {
+        font-size: 28px;
+        max-width: 400px;
+    }
+
+    .boxContainerSection2 h2 {
+        font-size: 26px;
+    }
+
+    .boxContainerSection2 a {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .sliderContainerTestimonials p {
+        font-size: 14px;
+    }
+
+    .ourPoroducts h2 {
+        font-size: 26px;
+    }
+
+    .notJustProducts h2 {
+        font-size: 26px;
+    }
+
+    .notJustProducts a {
+        padding: 10px 20px;
+    }
+
+    .notJustProducts a {
+        font-size: 13px;
+    }
+
+    section.insta-section {
+        height: 250px;
+
+    }
+    .page-directry.page-directry1 {
+
+        max-width: 900px;
+    }    
+}
+
+@media only screen and (max-width: 1024px) {
+    .boxContainerSection2 h2 {
+        font-size: 22px;
+    }
+
+    .boxContainerSection2 {
+        min-height: 240px;
+    }
+
+    .ourPoroducts h2 {
+        font-size: 22px;
+    }
+
+    .ourPoroducts p {
+        font-size: 14px;
+    }
+    .term-condition {
+        max-width: 750px;
+        padding: 30px 0 10px;
+    }
+    .page-directry ul li a,.term-condition a {
+        font-size: 14px;
+    }
+    .page-directry h2 {
+        font-size: 28px;
+    }
+    .page-directry ul {
+        max-width: 19%;
+    }
+    .term-condition h4 {
+        font-size: 20px;
+        margin: 30px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .joing {
+        margin-right: auto;
+    }
+    .tracking h1 {
+        font-size: 24px ;
+        margin-bottom: 20px ;
+    }
+    .tracking {
+        margin: 5% auto ;
+        padding: 30px 20px ;
+    }
+    .In-touch {
+        display: block ;
+        padding: 30px 0 30px;
+        margin: 0;
+    }
+    .get-in-touch,.email {
+        max-width: 100%;
+    }
+    .In-touch h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .In-touch p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .get-in-touch h3 {
+        font-size: 18px;
+        margin: 25px 0 15px;
+    }
+    .page-directry.page-directry1 ul {
+        max-width: 23%;
+    }
+   
+    .page-directry h2 {
+        font-size: 26px;
+    }
+    .email {
+        margin-bottom: 30px;
+    }
+    .term-condition h4 {
+        font-size: 18px;
+        margin: 20px 0 20px;
+    }
+    .term-condition {
+        padding: 30px 10px;
+    }
+    .term-condition p {
+        font-size: 14px;
+        margin: 15px 0;
+    }
+    .page-directry ul {
+        max-width: 44%;
+    }
+    .after-para p {
+        padding-left: 20px;
+    }
+    .after-para p::after {
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .boxContainerSection2:last-child {
+        margin-bottom: 20px;
+    }
+
+    .bot-ico ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bot-par {
+        text-align: center;
+    }
+
+    footer.main-footer {
+        padding-bottom: 20px;
+    }
+    .shopInfo{
+        padding-top: 30px;
+    }
+    .page-directry.page-directry1 ul {
+        max-width: 36%;
+    }
+    
+ 
+}
