@@ -24,7 +24,6 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-family: Century;
 }
 
 body,
@@ -552,11 +551,11 @@ button.slick-next.slick-arrow {
 }
 
 .slick-prev:before {
-    content: '← Previous';
+    content: 'â† Previous';
 }
 
 .slick-next:before {
-    content: 'Next →';
+    content: 'Next â†’';
     display: flex;
 }
 
@@ -1029,3 +1028,206 @@ ul.tabs li.current {
     color: black;
     /* border: none; */
 }
+.accountPage .container {
+    max-width: 500px;
+    /* min-height: 500px; */
+    background: red;
+    background: #FBFBFB;
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    justify-content: center;
+    padding: 40px;
+}
+
+.formContainer h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 40px;
+}
+
+.formContainer input {
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    font-size: 14px;
+}
+
+.forms button {
+    width: 100%;
+    height: 40px;
+    background: #191919;
+    color: red;
+    color: #D8BE8B;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+a.forgot {display: block;text-align: right;color: #191919;font-size: 16px;margin-bottom: 40px;}
+
+.formContainer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.formContainer p a {
+    color: #D8BE8B;
+    margin-left: 10px;
+}
+.formContainer {
+    width: 100%;
+}
+.bredCrumbs {
+    max-width: max-content;
+    margin: 40px auto;
+}
+
+.bredCrumbs a {
+    color: #191919;
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+}
+
+.bredCrumbs span {
+    color: #191919;
+    text-transform: capitalize;
+}
+
+.bredCrumbs {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2.pageheadingss {
+    font-weight: 600;
+    margin: 20px 0px;
+    color: #191919;
+}
+
+.innerContainerAbout {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.innerContainerAbout img {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.innerContainerAbout h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.innerContainerAbout p {
+    line-height: 27px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.reviewsContainers {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.reviewsContainers h2 {
+    color: #D8BE8B;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.reviewsContainers {
+    margin: 50px auto;
+}
+
+.reviewsContainers p {
+    line-height: 27px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.reviewsContainers span {
+    display: block;
+    margin: 40px;
+    font-size: 18px;
+}
+.boxContainerfaq {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.boxContainerfaq h2 {
+    color: #D8BE8B;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.boxContainerfaq p {
+    line-height: 27px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.faqContaienrfaq {
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.faqContaienrfaq h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    position: relative;
+    cursor: pointer;
+    padding-left: 20px;
+    margin: 0px;
+    position: relative;
+}
+
+.questionsAnserws p {
+    display: none;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.questionsAnserws {
+    padding: 15px 0px;
+    border-bottom: 1px solid #cccc;
+}
+
+.faqContaienrfaq h6::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    content: "+";
+    display: block;
+}
+
+.questionsAnserws p a {
+    color: #D8BE8B;
+}
+
+.questionsAnserws h6.active {
+    color: #D8BE8B;
+}
+
+.questionsAnserws h6.active::after {content: "-";}

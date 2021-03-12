@@ -288,7 +288,7 @@
     .page-directry.page-directry1 ul {
         max-width: 23%;
     }
-   
+
     .page-directry h2 {
         font-size: 26px;
     }
@@ -315,6 +315,185 @@
     .after-para p::after {
         width: 20px;
         height: 20px;
+    }
+    .first p {
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 22px;
+        margin: 20px 0px;
+        font-weight: 300;
+    }
+
+    .second {
+        margin-bottom: 20px;
+    }
+
+    .second h6 {font-weight: 600;}
+
+    .second ul li a {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration: none;
+    }
+
+    .second ul li a:after {
+        display: none;
+    }
+
+    .upper-footer h6 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .topBar p {
+        font-size: 11px;
+    }
+
+    .accountPage .container {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .forms button {
+        font-size: 13px;
+    }
+
+    a.forgot {
+        font-size: 13px;
+    }
+
+    .formContainer p {
+        font-size: 13px;
+    }
+
+    .formContainer h2 {
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+
+    .formContainer input {
+        font-size: 12px;
+    }
+    .bredCrumbs span, .bredCrumbs a {
+        font-size: 12px;
+    }
+
+    h2.pageheadingss {
+        font-size: 22px;
+        margin: 10px 0px 0px;
+    }
+
+    .innerContainerAbout {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .innerContainerAbout img {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .innerContainerAbout h3 {
+        font-weight: 700;
+        font-size: 22px;
+        margin: 0px 0px 10px;
+    }
+
+    .innerContainerAbout p {
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    .reviewsContainers h2 {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .reviewsContainers p {font-size: 13px;line-height: 20px;font-weight: 300;}
+
+    .reviewsContainers {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+
+    .reviewsContainers span {
+        font-size: 18px;
+        margin: 10px 0px 40px;
+    }
+    .boxContainerfaq {
+        max-width: 90%;
+    }
+
+    .boxContainerfaq h2 {
+        font-size: 22px;
+    }
+
+    .boxContainerfaq p {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .faqContaienrfaq {
+        max-width: 90%;
+    }
+
+    .faqContaienrfaq h6 {
+        font-size: 13px;
+    }
+
+    .questionsAnserws p {
+        font-size: 11px;
+        line-height: normal;
+    }
+    .page-directry.page-directry1 {
+        /* margin: 0px 20px; */
+        width: 100%;
+        max-width: max-content;
+        display: block;
+        max-width: 90%;
+        padding: 20px;
+        background-color: #FAFAFA;
+    }
+
+    .In-touch {
+        padding: 0px;
+        background: none;
+    }
+
+    .In-touch h1 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .In-touch p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+
+    .get-in-touch h3 {
+        font-size: 15px;
+        font-weight: 700;
+        margin: 10px 0px;
+    }
+
+    .get-in-touch input, .get-in-touch textarea {
+        font-size: 11px;
+        height: 35px;
+    }
+
+    .In-touch button {
+        font-size: 13px;
+        line-height: normal;
+        border: 2px solid #000;
+        font-size: 13px;
     }
     
 }
@@ -343,5 +522,5 @@
         max-width: 36%;
     }
     
- 
+
 }
