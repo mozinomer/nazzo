@@ -495,6 +495,58 @@
         border: 2px solid #000;
         font-size: 13px;
     }
+    .productPrice {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .productTitle {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .reviewStars p {
+        font-weight: 500;
+        font-size: 11px;
+    }
+
+    .reviewStars ul li i {
+        font-size: 12px;
+    }
+
+    .shopInfo h3 {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0px;
+        margin: 10px 0px;
+    }
+
+    .productCount {
+        font-size: 11px;
+        height: 30px;
+    }
+
+    .productCartBtn {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .productInfoBox p {
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+
+    .shopInfo h3 {
+        font-size: 14px;
+    }
+
+    .shopDetailPage {padding-bottom: 0px;}
+
+    .youMayLikeContent h3 {
+        font-size: 22px;
+        font-weight: 600;
+    }
     
 }
 
