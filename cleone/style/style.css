@@ -79,6 +79,7 @@ header {
 
 .hamburger {
     order: 1;
+    cursor: pointer;
 }
 
 .cartContaienrHeader {
@@ -551,11 +552,11 @@ button.slick-next.slick-arrow {
 }
 
 .slick-prev:before {
-    content: 'ÃƒÂ¢Ã¢â‚¬Â Ã‚Â Previous';
+    content: 'ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â Ãƒâ€šÃ‚Â Previous';
 }
 
 .slick-next:before {
-    content: 'Next ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢';
+    content: 'Next ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢';
     display: flex;
 }
 
@@ -1234,7 +1235,7 @@ h2.pageheadingss {
 .menuInnerContainerSlip {
     position: fixed;
     z-index: 9999;
-    /* background: red; */
+    background: #0000007a;
     width: 100%;
     top: 0;
     bottom: 0;
@@ -1244,7 +1245,7 @@ h2.pageheadingss {
 
 .crosssed {
     flex: 0 80%;
-    background: black;
+    background: none;
     opacity: 0.4;
 }
 
@@ -1255,6 +1256,9 @@ h2.pageheadingss {
     height: 100%;
     overflow: auto;
     overflow-x: hidden;
+    position: relative;
+    left: -100%;
+    transition: 1s all;
 }
 
 .menuInnerContainerSlip li a {
@@ -1276,7 +1280,7 @@ h2.pageheadingss {
     position: relative;
 }
 
-.menuInnerContainerSlip li.has-children a:after {content: "";display: block;width: 6px;height: 6px;border: 2px solid #000;transform: rotate(-45deg);position: absolute;right: 0;border-top: 0;border-left: 0;top: 0;bottom: 0;margin: auto;right: 20px;}
+.menuInnerContainerSlip li.has-children a:after {content: "";display: block;width: 6px;height: 6px;border: 2px solid #000;transform: rotate(-45deg);position: absolute;right: 0;border-top: 0;border-left: 0;top: 0;bottom: 0;right: 20px;margin: auto;}
 
 li.registerandlogin a {
     border: 1px solid #000;
@@ -1284,3 +1288,38 @@ li.registerandlogin a {
     border-right: 0;
     padding: 15px 40px;
 }
+.menuCOntainerBackflip {
+    display: none;
+}
+.menuCOntainerBackflip.active .menuInnerContainerSlip > ul {
+    left: 0;
+    transition: 1s all;
+    top: 0;
+}
+
+.menuInnerContainerSlip ul ul.subMenu {
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    left: 0;
+    right: 0;
+    left: -100%;
+    top: 0;
+}
+.menuInnerContainerSlip ul ul.subMenu.active {
+    left: 0;
+}
+li.closeThis {
+    border: 1px solid #cccc;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 20px;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 20px;
+    border-top: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+li.closeThis:after {content: "back";padding-left: 10px;text-transform: capitalize;font-size: 16px;}

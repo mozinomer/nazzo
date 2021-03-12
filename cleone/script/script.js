@@ -52,3 +52,22 @@ $(document).ready(function(){
 	})
 
 })
+$('.hamburger').click( function(e) {
+    $('.menuCOntainerBackflip').fadeIn().addClass('active')
+});
+$('.crosssed').click( function(e) {
+     $('.menuCOntainerBackflip').removeClass('active');
+     $('.menuCOntainerBackflip').fadeOut()
+});
+$('li.has-children a').click( function(e) {
+    e.preventDefault();
+    $(this).parent().find('ul.subMenu').addClass('active');
+});
+$('.closeThis').click( function(e) {
+    $(this).parent().removeClass('active');
+})
+
+
+
+
+
